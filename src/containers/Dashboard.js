@@ -85,7 +85,7 @@ export default class {
     if (typeof $('#modaleFileAdmin1').modal === 'function') $('#modaleFileAdmin1').modal('show')
   }
 
-  // [Bug Hunt] - Dashboard
+  // [Bug Hunt] - Dashboard déplier plusieurs listes
   handleEditTicket(e, bill, bills) {
     e.stopImmediatePropagation();
     if (this.counter === undefined || this.id !== bill.id) this.counter = 0

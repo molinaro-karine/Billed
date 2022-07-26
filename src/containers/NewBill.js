@@ -16,7 +16,7 @@ export default class NewBill {
     new Logout({ document, localStorage, onNavigate })
   }
 
-    // [Bug Hunt] - Bills
+    // [Bug Hunt] - Bills différente de jpg, jpeg ou png
     handleChangeFile = e => {
         e.preventDefault()
         const file = this.document.querySelector(`input[data-testid="file"]`).files[0]
