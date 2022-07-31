@@ -113,3 +113,14 @@ tr td:nth-of-type(5) {
 .bill-proof-container {
   overflow: scroll;
 }
+/* [Bug Hunt] - Bills */
+.error {
+  display: none;
+  font-size: 0.8rem;
+  color: red;
+}
+.valid {
+  display: none;
+  font-size: 0.8rem;
+  color: green;
+}
